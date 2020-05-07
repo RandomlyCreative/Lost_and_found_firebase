@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/reqitemview"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/textViewit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="requested ItemName"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/textViewloc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="requested itemLocation"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:textAllCaps="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:text="Response:"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Response of admin."
+            android:paddingLeft="5dp"
+            android:textSize="15dp"
+            android:id="@+id/textViewres"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MY</string>
+    <string name="title_activity_accountpage">accountpage</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="user_info">USER INFO</string>
+    <string name="select_from_the_following_list_of_items">Select from the following list of items:</string>
+    <string name="request">REQUEST</string>
+    <string name="location">Location:</string>
+    <string name="item_name">Item Name:</string>
+    <string name="year">Year:</string>
+    <string name="branch">Branch:</string>
+    <string name="sap_id">SAP id:</string>
+    <string name="name">Name:</string>
+    <string name="title_activity_lostnfound">lostnfound</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_lnfmain">lnfmain</string>
+    <string name="title_activity_lnf">lnf</string>
+    <string name="save">SAVE</string>
+    <string name="request_claim_on_item">Request claim on item?</string>
+    <string name="logout">LOGOUT</string>
+</resources>
