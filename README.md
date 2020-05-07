@@ -34,7 +34,7 @@ These activities have edittexts for itemname, username, item location, userroom,
 The user info is taken via database in both the activities. Itemname and itemlocation is taken via intent bundle in request activity. Report activity does not require item details as they are entered by the user.
 The edittexts of the already filled locations are disabled.
 
-●	4.4 FireBase Database and Implementation:
+●	FireBase Database and Implementation:
 
 This document covers the basics of reading and writing Firebase data.Firebase data is written to a FirebaseDatabase reference and retrieved by attaching an asynchronous listener to the reference. The listener is triggered once for the initial state of the data and again anytime the data changes.
 Firebase Authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app. It supports authentication using passwords, phone numbers, popular federated identity providers like Google, Facebook and Twitter, and more.
@@ -44,23 +44,23 @@ Signin and registration of user is done via FirebaseAuth.
 List of items, item requests/reports, userinfo are stored into database using FirebaseDatabase.
 The views are refreshed OnDataChange in the database using list.clear();
 
-●4.5 Dialog Box
+●       Dialog Box
 
 A dialog is a small window that prompts the user to make a decision or enter additional information. A dialog does not fill the screen and is normally used for modal events that require users to take an action before they can proceed.Custom dialogbox has been used in this application to ask whether or not to request claim on an item.
 
-●	4.6 INTENT
+●	INTENT
 
 An intent is an abstract description of an operation to be performed. It can be used with startActivity to launch an Activity, send data bundles to different activities. An activity cannot recieve an empty bundle. It will lead to a nulllpointerexception and the acrivity will crash.
 	Intent has been used to take itemname and itemlocation from activity “TAB1” and send it to requestpage activity.
 
 
-●	4.7 BUTTONS
+●	BUTTONS
 
 Represents a push-button widget. Push-buttons can be pressed, or clicked, by the user to perform an action.
 This class represents the basic building block for user interface components. Buttons have been used at various places in this application, such as : registerbutton, loginbutton, reportlostitem button, requestbutton. Butons have been used to store data into the firebase database and start new activities.		
 
 
-●	4.8 RECYCLER VIEW
+●	RECYCLER VIEW
 
 
 The RecyclerView is a new ViewGroup that is prepared to render any adapter-based view in a similar way. It is supposed to be the successor of ListView and GridView, and it can be found in the latest support-v7 version. One of the reasons is that RecyclerView has a more extensible framework, especially since it provides the ability to implement both horizontal and vertical layouts. Use the RecyclerView widget when you have data collections whose elements change at runtime based on user action or network events.
@@ -128,3 +128,19 @@ The user can report for the lost item in the Section provided under the main act
 The user gets the latest information on their handheld device without having to go to the warden office to inquire about the lost items.
 
 ### ScreenShots: 
+<p align="center"><img src="https://github.com/RandomlyCreative/Lost_and_found_firebase/blob/master/snaps/image005.jpg" width="200" height="370">
+
+<img src="https://github.com/RandomlyCreative/Lost_and_found_firebase/blob/master/snaps/image008.jpg" width="200" height="370">
+
+<img src="https://github.com/RandomlyCreative/Lost_and_found_firebase/blob/master/snaps/image010.jpg" width="200" height="370">
+
+<img src="https://github.com/RandomlyCreative/Lost_and_found_firebase/blob/master/snaps/image012.jpg" width="200" height="370">
+
+<img src="https://github.com/RandomlyCreative/Lost_and_found_firebase/blob/master/snaps/image020.jpg" width="200" height="370">
+
+<img src="https://github.com/RandomlyCreative/Lost_and_found_firebase/blob/master/snaps/image014.jpg" width="200" height="370">
+
+<img src="https://github.com/RandomlyCreative/Lost_and_found_firebase/blob/master/snaps/image016.jpg" width="200" height="370">
+	
+<img src="https://github.com/RandomlyCreative/Lost_and_found_firebase/blob/master/snaps/image018.jpg" width="200" height="370">
+</p>
